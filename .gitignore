@@ -1,0 +1,22 @@
+# Python кэш
+__pycache__/
+*.pyc
+
+# Системные файлы macOS
+.DS_Store
+
+# Временные файлы GDAL/GeoTIFF (часто создаются автоматически)
+*.tif.aux.xml
+*.shx
+*.shp.xml
+*.dbf
+
+# Виртуальное окружение (если будешь ставить пакеты локально)
+.venv/
+venv/
+
+# Результаты, которые лучше не хранить в Git (большие файлы)
+results/*.tif
+results/*.shp
+results/*.geojson
+report/*.pdf
